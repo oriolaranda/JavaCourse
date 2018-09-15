@@ -1,0 +1,78 @@
+package principal;
+
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+/**
+ * Classe Panel2
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.1
+ * 
+ **/
+
+public class Panel2 extends JPanel implements MouseListener {
+
+	Frame f;
+	Panel1 p1;
+	
+	JLabel player1, player2;
+	JLabel cercle, creu;
+	JLabel[][] ox_general= new JLabel[3][3];
+	JButton[][] buto=new JButton[9][9];
+	
+	
+	/* ************************* *
+	 * Constructor JPanel Panel2 *
+	 * ************************* */
+	public Panel2(){
+		p1.creacioBotons(this.buto, this);
+	}
+	
+	
+	public void initComponents(){
+		
+	}
+	
+	
+	/* Info principal*/
+	
+	public void setPrincipal (Frame f, Panel1 p1){
+		this.f=f;
+		this.p1=p1;
+	}
+
+
+	
+	/* Listeners */
+	
+	@Override
+	public void mouseClicked(MouseEvent arg0) {
+		
+	}
+
+
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent arg0) {}
+
+	@Override
+	public void mouseReleased(MouseEvent arg0) {}
+	
+	
+	
+	
+	
+}

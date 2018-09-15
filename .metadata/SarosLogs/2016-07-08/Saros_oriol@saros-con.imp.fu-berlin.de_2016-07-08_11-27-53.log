@@ -1,0 +1,1169 @@
+INFO  2016-07-08 11:27:43,605 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_91
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.12.0.v20160606-1342
+  Operating System: Windows 7 (6.1)
+  Hardware Architecture: amd64
+INFO  2016-07-08 11:27:43,633 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2016-07-08 11:27:43,664 (XMPPAccountStore.java:117) loading accounts from file: C:\Users\Oriol\.saros\config.dat
+DEBUG 2016-07-08 11:27:43,877 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2016-07-08 11:27:44,029 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2016-07-08 11:27:44,052 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2016-07-08 11:27:44,068 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2016-07-08 11:27:44,096 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2016-07-08 11:27:44,102 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2016-07-08 11:27:46,845 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2016-07-08 11:27:51,792 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2016-07-08 11:27:51,876 (DocumentRecord.java:93) Added Node: attr(14679700718669769) name=svg
+DEBUG 2016-07-08 11:27:51,940 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-08 11:27:52,036 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-08 11:27:52,043 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2016-07-08 11:27:53,306 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2016-07-08 11:27:53,306 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2016-07-08 11:27:53,307 (SkypeManager.java:289) Refreshing Skype username cache...
+WARN  2016-07-08 11:28:02,371 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+WARN  2016-07-08 11:28:02,375 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+DEBUG 2016-07-08 18:52:11,981 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: davidpujol@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-07-08 18:52:27,265 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-07-08 18:52:27,271 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-07-08 18:52:27,492 (StatisticManager.java:163) Session count: 17
+INFO  2016-07-08 18:52:27,493 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2016-07-08 18:52:27,494 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-07-08 18:52:27,496 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:52:27,496 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:52:27,524 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2016-07-08 18:52:27,526 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-07-08 18:52:27,527 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@f2ca6ce1 - P/ThreeSquareV1.1 with ID 1805205111 [completely shared:true]
+DEBUG 2016-07-08 18:52:27,537 (EditorManager.java:392) Principal.java
+DEBUG 2016-07-08 18:52:27,544 (EditorManager.java:392) User.java
+DEBUG 2016-07-08 18:52:27,545 (EditorManager.java:392) Elements.java
+DEBUG 2016-07-08 18:52:27,546 (EditorManager.java:392) Panel1.java
+DEBUG 2016-07-08 18:52:27,546 (EditorManager.java:392) Window.java
+DEBUG 2016-07-08 18:52:27,547 (EditorManager.java:392) Frame.java
+DEBUG 2016-07-08 18:52:27,548 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2016-07-08 18:52:27,549 (SarosSessionManager.java:262) session started
+DEBUG 2016-07-08 18:52:27,572 (OutgoingSessionNegotiation.java:122) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2016-07-08 18:52:27,573 (OutgoingSessionNegotiation.java:223) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2016-07-08 18:52:27,574 (OutgoingSessionNegotiation.java:235) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2016-07-08 18:52:27,574 (OutgoingSessionNegotiation.java:253) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2016-07-08 18:52:27,630 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-07-08 18:52:27,633 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2016-07-08 18:52:27,807 (MultiUserChat.java:310) Configuring room
+DEBUG 2016-07-08 18:52:27,955 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1270688125 Password 900121365
+DEBUG 2016-07-08 18:52:28,018 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:52:28,018 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:52:28,020 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:52:28,398 (OutgoingSessionNegotiation.java:284) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2016-07-08 18:52:28,399 (OutgoingSessionNegotiation.java:298) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2016-07-08 18:52:28,399 (OutgoingSessionNegotiation.java:314) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2016-07-08 18:52:28,628 (OutgoingSessionNegotiation.java:325) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2016-07-08 18:52:28,629 (OutgoingSessionNegotiation.java:334) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2016-07-08 18:52:35,645 (OutgoingSessionNegotiation.java:345) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2016-07-08 18:52:35,645 (OutgoingSessionNegotiation.java:355) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for client's session parameters
+DEBUG 2016-07-08 18:52:35,725 (OutgoingSessionNegotiation.java:375) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : received client's session parameters
+DEBUG 2016-07-08 18:52:35,850 (WhiteboardManager.java:163) Detected  Whiteboard at davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:52:35,851 (OutgoingSessionNegotiation.java:427) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending updated session negotiation data
+DEBUG 2016-07-08 18:52:35,852 (OutgoingSessionNegotiation.java:434) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sent updated session negotiation data
+DEBUG 2016-07-08 18:52:35,852 (OutgoingSessionNegotiation.java:444) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for remote side to start its Saros session
+DEBUG 2016-07-08 18:52:37,527 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@7dfd0251]
+DEBUG 2016-07-08 18:52:37,527 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]
+DEBUG 2016-07-08 18:52:37,528 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2016-07-08 18:52:45,598 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2016-07-08 18:52:51,978 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 18:52:51,987 (ByteStreamTransport.java:105) could not establish bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-08 18:53:17,257 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@221e58e0]
+DEBUG 2016-07-08 18:53:17,266 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros, inc=true, pool id=saros-main-session:in:davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:53:17,267 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-07-08 18:53:17,852 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/davidpujol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:53:17,853 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:53:17,853 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:53:18,557 (OutgoingSessionNegotiation.java:455) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : remote side started its Saros session
+DEBUG 2016-07-08 18:53:18,557 (OutgoingSessionNegotiation.java:472) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : synchronizing user list
+DEBUG 2016-07-08 18:53:18,558 (UserInformationHandler.java:152) synchronizing user list (A)[oriol@saros-con.imp.fu-berlin.de/Saros, davidpujol@saros-con.imp.fu-berlin.de/Saros], (R) [] with user(s) [davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:53:19,572 (UserInformationHandler.java:204) received user list confirmation from: davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:53:19,573 (UserInformationHandler.java:211) synchronized user list with user(s) [davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:53:19,575 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-07-08 18:53:19,582 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-07-08 18:53:19,583 (ChangeColorManager.java:383) new color assignment: {oriol@saros-con.imp.fu-berlin.de/Saros=3, davidpujol@saros-con.imp.fu-berlin.de/Saros=1}
+DEBUG 2016-07-08 18:53:19,584 (ChangeColorManager.java:634) updating color id set: [oriol@saros-con.imp.fu-berlin.de, davidpujol@saros-con.imp.fu-berlin.de]
+DEBUG 2016-07-08 18:53:19,589 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-07-08 18:53:19,591 (ParticipantCollector.java:67) davidpujol@saros-con.imp.fu-berlin.de/Saros joined - session now contains 2 users
+INFO  2016-07-08 18:53:19,593 (SarosSession.java:456) user davidpujol@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 2016-07-08 18:53:19,594 (OutgoingSessionNegotiation.java:482) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : added davidpujol@saros-con.imp.fu-berlin.de/Saros to the current session, colorID: 1
+DEBUG 2016-07-08 18:53:20,069 (OutgoingSessionNegotiation.java:501) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : session negotiation finished
+DEBUG 2016-07-08 18:53:20,071 (WhiteboardManager.java:89) Preparing Whiteboard for sending an invitation
+DEBUG 2016-07-08 18:53:20,075 (ColorUtils.java:21) set foregroundcolor RGB {237, 237, 169}
+DEBUG 2016-07-08 18:53:20,079 (SXEController.java:120) SXE (4886): initialize session at inviter side
+DEBUG 2016-07-08 18:53:20,083 (SXEOutgoingSynchronizationProcess.java:51) SXE(4886)  send state-offer to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:53:20,084 (SarosSXETransmitter.java:151) SXE send state-offer to davidpujol@saros-con.imp.fu-berlin.de/Saros waiting for [accept-state, refuse-state]
+INFO  2016-07-08 18:53:20,088 (DataTransferManager.java:409) establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saros from oriol@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2016-07-08 18:53:20,088 (ByteStreamTransport.java:45) establishing bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:53:20,089 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]...
+DEBUG 2016-07-08 18:53:20,604 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:53:21,426 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@7dfd0251]
+DEBUG 2016-07-08 18:53:21,427 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]
+ERROR 2016-07-08 18:53:29,506 (ByteStreamTransport.java:105) could not establish bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2016-07-08 18:53:33,448 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to davidpujol@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2016-07-08 18:53:33,449 (Socks5Transport.java:567) [SOCKS5Transport] waiting for davidpujol@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+WARN  2016-07-08 18:54:03,451 (DataTransferManager.java:415) failed to connect to davidpujol@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+INFO  2016-07-08 18:54:03,452 (DataTransferManager.java:409) establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saros from oriol@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2016-07-08 18:54:03,452 (ByteStreamTransport.java:45) establishing bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+WARN  2016-07-08 18:54:33,453 (DataTransferManager.java:415) failed to connect to davidpujol@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-IBB-Transport
+java.io.IOException: No response from server.: 
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:50)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: No response from server.: 
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:51)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:62)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamManager.establishSession(InBandBytestreamManager.java:428)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamManager.establishSession(InBandBytestreamManager.java:74)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.establishBinaryChannel(ByteStreamTransport.java:131)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	... 12 more
+ERROR 2016-07-08 18:54:33,454 (SarosSXETransmitter.java:140) SXE sending whiteboard message failed because of an network error
+java.io.IOException: could not connect to davidpujol@saros-con.imp.fu-berlin.de/Saros, exhausted all available transport modes: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:438)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+DEBUG 2016-07-08 18:54:42,159 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 2016-07-08 18:54:42,159 (MultiUserChat.java:79) stateChanged fired with state: composing
+DEBUG 2016-07-08 18:54:42,160 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:44,399 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:44,400 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 2016-07-08 18:54:44,400 (MultiUserChat.java:79) stateChanged fired with state: inactive
+DEBUG 2016-07-08 18:54:44,400 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:49,716 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: composing
+DEBUG 2016-07-08 18:54:49,716 (MultiUserChat.java:79) stateChanged fired with state: composing
+DEBUG 2016-07-08 18:54:49,716 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:55,312 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:55,313 (MultiUserChatStateManager.java:101) Incoming Message from saros_1270688125@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: inactive
+DEBUG 2016-07-08 18:54:55,313 (MultiUserChat.java:79) stateChanged fired with state: inactive
+DEBUG 2016-07-08 18:54:55,314 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:54:59,037 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+ERROR 2016-07-08 18:55:03,492 (SXEOutgoingSynchronizationProcess.java:114) SXE(4886) Timeout while synchronizing whiteboard state: received no response from davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:55:03,494 (CancelableProcess.java:353) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+INFO  2016-07-08 18:55:03,501 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2016-07-08 18:55:03,788 (OutgoingProjectNegotiation.java:181) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending file list
+DEBUG 2016-07-08 18:55:58,808 (DataTransferManager.java:336) closed connection [pool id=saros-main-session:in:davidpujol@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros
+ERROR 2016-07-08 18:55:58,808 (DataTransferManager.java:270) failed to send TransferDescription [elementName=pnof, namespace=de.fu_berlin.inf.dpp, recipient=davidpujol@saros-con.imp.fu-berlin.de/Saros, sender=oriol@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros:connection is closed
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingProjectNegotiation.sendFileList(OutgoingProjectNegotiation.java:199)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingProjectNegotiation.run(OutgoingProjectNegotiation.java:101)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingProjectJob.run(NegotiationHandler.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+ERROR 2016-07-08 18:55:58,809 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ping, namespace=de.fu_berlin.inf.dpp, recipient=davidpujol@saros-con.imp.fu-berlin.de/Saros, sender=oriol@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros:Error while closing stream: No response from server.
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 18:55:58,817 (ServerSessionTimeoutHandler.java:113) failed to send ping to: davidpujol@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 18:55:58,811 (CancelableProcess.java:299) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] I/O error occurred
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingProjectNegotiation.sendFileList(OutgoingProjectNegotiation.java:199)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingProjectNegotiation.run(OutgoingProjectNegotiation.java:101)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingProjectJob.run(NegotiationHandler.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+DEBUG 2016-07-08 18:55:58,821 (CancelableProcess.java:156) process OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: I/O failure: connection is closed
+ERROR 2016-07-08 18:55:58,821 (CancelableProcess.java:398) cancelled process OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros], error: I/O failure: connection is closed
+DEBUG 2016-07-08 18:55:58,824 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-07-08 18:55:58,824 (ProjectNegotiation.java:137) notifying remote contact davidpujol@saros-con.imp.fu-berlin.de/Saros of the local project negotiation cancellation
+DEBUG 2016-07-08 18:55:58,825 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-07-08 18:55:58,825 (ChangeColorManager.java:383) new color assignment: {oriol@saros-con.imp.fu-berlin.de/Saros=3}
+DEBUG 2016-07-08 18:55:58,825 (CancelableProcess.java:349) executing cancellation for process OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:55:58,825 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-07-08 18:55:58,826 (ChangeColorManager.java:634) updating color id set: [oriol@saros-con.imp.fu-berlin.de]
+DEBUG 2016-07-08 18:55:58,827 (SarosSessionManager.java:337) Leave message sent.
+INFO  2016-07-08 18:55:58,827 (ParticipantCollector.java:77) davidpujol@saros-con.imp.fu-berlin.de/Saros left - session now contains 1 users
+DEBUG 2016-07-08 18:55:58,828 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-07-08 18:55:58,828 (FeedbackManager.java:104) Session lasted 3 min 31 s
+DEBUG 2016-07-08 18:55:58,829 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-07-08 18:55:58,830 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2016-07-08 18:55:58,837 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.6
+  data_transfer.IBB.number_of_events=10
+  data_transfer.IBB.total_size_kb=1
+  data_transfer.IBB.total_time_ms=2161
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_91
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-07-05_18-51-28_1203379747
+  role.1.duration=3.52
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=3.52
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=17
+  session.id=1270688125
+  session.local.start=2016-07-08T16:55:58Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=25
+  session.time.users.1=0.87
+  session.time.users.2.percent=75
+  session.time.users.2=2.65
+  session.time=3.52
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2016-07-08 18:55:58,838 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-07-08 18:55:58,886 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-07-08 18:55:58,887 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:55:58,888 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:55:58,890 (DocumentRecord.java:93) Added Node: attr(1467996958890848) name=svg
+DEBUG 2016-07-08 18:55:58,891 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2016-07-08 18:55:58,907 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@3f2ee2b
+INFO  2016-07-08 18:55:58,992 (SarosSessionManager.java:351) session stopped
+DEBUG 2016-07-08 18:55:58,992 (CancelableProcess.java:353) process OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: ERROR
+INFO  2016-07-08 18:56:10,709 (SarosSession.java:555) user davidpujol@saros-con.imp.fu-berlin.de/Saros left session
+INFO  2016-07-08 18:56:37,147 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-07-08 18:56:37,150 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-07-08 18:56:37,401 (StatisticManager.java:163) Session count: 18
+INFO  2016-07-08 18:56:37,402 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2016-07-08 18:56:37,402 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-07-08 18:56:37,403 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:56:37,403 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:56:37,426 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2016-07-08 18:56:37,427 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-07-08 18:56:37,427 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@f2ca6ce1 - P/ThreeSquareV1.1 with ID 888005962 [completely shared:true]
+DEBUG 2016-07-08 18:56:37,435 (EditorManager.java:392) Principal.java
+DEBUG 2016-07-08 18:56:37,436 (EditorManager.java:392) User.java
+DEBUG 2016-07-08 18:56:37,436 (EditorManager.java:392) Elements.java
+DEBUG 2016-07-08 18:56:37,436 (EditorManager.java:392) Panel1.java
+DEBUG 2016-07-08 18:56:37,437 (EditorManager.java:392) Window.java
+DEBUG 2016-07-08 18:56:37,437 (EditorManager.java:392) Frame.java
+DEBUG 2016-07-08 18:56:37,438 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2016-07-08 18:56:37,438 (SarosSessionManager.java:262) session started
+DEBUG 2016-07-08 18:56:37,440 (OutgoingSessionNegotiation.java:122) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2016-07-08 18:56:37,440 (OutgoingSessionNegotiation.java:223) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2016-07-08 18:56:37,440 (OutgoingSessionNegotiation.java:235) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2016-07-08 18:56:37,441 (OutgoingSessionNegotiation.java:253) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2016-07-08 18:56:37,623 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-07-08 18:56:37,624 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2016-07-08 18:56:37,686 (MultiUserChat.java:310) Configuring room
+DEBUG 2016-07-08 18:56:37,820 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_157103597 Password 900121365
+DEBUG 2016-07-08 18:56:37,883 (MultiUserChatStateManager.java:101) Incoming Message from saros_157103597@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:56:37,884 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:56:37,886 (MultiUserChat.java:133) processPacket called
+ERROR 2016-07-08 18:56:47,442 (OutgoingSessionNegotiation.java:262) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : could not obtain remote Saros version
+DEBUG 2016-07-08 18:56:47,443 (CancelableProcess.java:156) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: Could not obtain the version of the Saros plugin from David. Please try again.
+ERROR 2016-07-08 18:56:47,443 (CancelableProcess.java:398) cancelled process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros], error: Could not obtain the version of the Saros plugin from David. Please try again.
+DEBUG 2016-07-08 18:56:47,457 (CancelableProcess.java:349) executing cancellation for process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:56:47,458 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-07-08 18:56:47,458 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2016-07-08 18:56:47,459 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-07-08 18:56:47,459 (FeedbackManager.java:104) Session lasted 0 min 10 s
+DEBUG 2016-07-08 18:56:47,460 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-07-08 18:56:47,460 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2016-07-08 18:56:47,461 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_91
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-07-05_18-51-28_1203379747
+  role.1.duration=0.17
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=0.17
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=18
+  session.id=157103597
+  session.local.start=2016-07-08T16:56:47Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=100
+  session.time.users.1=0.17
+  session.time=0.17
+  session.users.total=1
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2016-07-08 18:56:47,461 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-07-08 18:56:47,467 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-07-08 18:56:47,467 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:56:47,468 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:56:47,468 (DocumentRecord.java:93) Added Node: attr(146799700746896737) name=svg
+DEBUG 2016-07-08 18:56:47,469 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2016-07-08 18:56:47,485 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@7bada771
+INFO  2016-07-08 18:56:47,562 (SarosSessionManager.java:351) session stopped
+DEBUG 2016-07-08 18:56:47,563 (CancelableProcess.java:353) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: ERROR
+DEBUG 2016-07-08 18:56:48,215 (DiscoveryManager.java:98) clearing cache entry of contact davidpujol@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2016-07-08 18:56:49,207 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:57:11,600 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2016-07-08 18:57:11,756 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2016-07-08 18:57:12,842 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-08 18:57:12,914 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-08 18:57:12,967 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-08 18:57:12,967 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2016-07-08 18:57:14,042 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2016-07-08 18:57:14,043 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2016-07-08 18:57:14,043 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2016-07-08 18:57:14,585 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: davidpujol@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-07-08 18:57:19,165 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-07-08 18:57:19,166 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-07-08 18:57:19,418 (StatisticManager.java:163) Session count: 19
+INFO  2016-07-08 18:57:19,419 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2016-07-08 18:57:19,420 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:57:19,420 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:57:19,421 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-07-08 18:57:19,449 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2016-07-08 18:57:19,450 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-07-08 18:57:19,450 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@f2ca6ce1 - P/ThreeSquareV1.1 with ID 1064642068 [completely shared:true]
+DEBUG 2016-07-08 18:57:19,463 (EditorManager.java:392) Principal.java
+DEBUG 2016-07-08 18:57:19,464 (EditorManager.java:392) User.java
+DEBUG 2016-07-08 18:57:19,465 (EditorManager.java:392) Elements.java
+DEBUG 2016-07-08 18:57:19,465 (EditorManager.java:392) Panel1.java
+DEBUG 2016-07-08 18:57:19,465 (EditorManager.java:392) Window.java
+DEBUG 2016-07-08 18:57:19,466 (EditorManager.java:392) Frame.java
+DEBUG 2016-07-08 18:57:19,466 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2016-07-08 18:57:19,466 (SarosSessionManager.java:262) session started
+DEBUG 2016-07-08 18:57:19,468 (OutgoingSessionNegotiation.java:122) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2016-07-08 18:57:19,469 (OutgoingSessionNegotiation.java:223) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2016-07-08 18:57:19,469 (OutgoingSessionNegotiation.java:235) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2016-07-08 18:57:19,469 (OutgoingSessionNegotiation.java:253) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2016-07-08 18:57:19,657 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-07-08 18:57:19,657 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2016-07-08 18:57:19,716 (MultiUserChat.java:310) Configuring room
+DEBUG 2016-07-08 18:57:19,849 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_304201479 Password 900121365
+DEBUG 2016-07-08 18:57:19,908 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:57:19,908 (MultiUserChatStateManager.java:101) Incoming Message from saros_304201479@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:57:19,908 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:57:20,029 (OutgoingSessionNegotiation.java:284) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2016-07-08 18:57:20,029 (OutgoingSessionNegotiation.java:298) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2016-07-08 18:57:20,030 (OutgoingSessionNegotiation.java:314) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2016-07-08 18:57:20,234 (CancelInviteHandler.java:57) Invdavidpujol@saros-con.imp.fu-berlin.de/Saros : Received invitation cancel message
+DEBUG 2016-07-08 18:57:20,235 (CancelableProcess.java:189) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] was cancelled by the remote side, error: I am already in a Saros session and so cannot accept your invitation.
+ERROR 2016-07-08 18:57:21,031 (CancelableProcess.java:411) cancelled process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] because the remote side encountered an error: I am already in a Saros session and so cannot accept your invitation.
+DEBUG 2016-07-08 18:57:21,031 (CancelableProcess.java:349) executing cancellation for process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:57:21,032 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-07-08 18:57:21,032 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2016-07-08 18:57:21,032 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-07-08 18:57:21,032 (FeedbackManager.java:104) Session lasted 0 min 1 s
+DEBUG 2016-07-08 18:57:21,033 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-07-08 18:57:21,033 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2016-07-08 18:57:21,034 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_91
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-07-05_18-51-28_1203379747
+  role.1.duration=0.03
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=0.03
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=19
+  session.id=304201479
+  session.local.start=2016-07-08T16:57:21Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=100
+  session.time.users.1=0.03
+  session.time=0.03
+  session.users.total=1
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=true
+INFO  2016-07-08 18:57:21,034 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-07-08 18:57:21,035 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-07-08 18:57:21,036 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:57:21,036 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:57:21,037 (DocumentRecord.java:93) Added Node: attr(146799704103789249) name=svg
+DEBUG 2016-07-08 18:57:21,037 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2016-07-08 18:57:21,049 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@752d5d09
+INFO  2016-07-08 18:57:21,113 (SarosSessionManager.java:351) session stopped
+DEBUG 2016-07-08 18:57:21,113 (CancelableProcess.java:353) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: REMOTE_ERROR
+WARN  2016-07-08 18:57:23,025 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+WARN  2016-07-08 18:57:23,027 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+DEBUG 2016-07-08 18:57:45,677 (DiscoveryManager.java:98) clearing cache entry of contact davidpujol@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2016-07-08 18:57:48,436 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: davidpujol@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-07-08 18:57:55,300 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2016-07-08 18:57:55,301 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2016-07-08 18:57:55,558 (StatisticManager.java:163) Session count: 20
+INFO  2016-07-08 18:57:55,558 (ParticipantCollector.java:134) Session started: Current number of participants: 1
+DEBUG 2016-07-08 18:57:55,559 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2016-07-08 18:57:55,559 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 18:57:55,559 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 18:57:55,584 (WhiteboardManager.java:104) Skip Whiteboard preparation because session host has no Whiteboard
+DEBUG 2016-07-08 18:57:55,584 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2016-07-08 18:57:55,584 (SarosProjectMapper.java:179) added project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@f2ca6ce1 - P/ThreeSquareV1.1 with ID 1306761552 [completely shared:true]
+DEBUG 2016-07-08 18:57:55,591 (EditorManager.java:392) Principal.java
+DEBUG 2016-07-08 18:57:55,592 (EditorManager.java:392) User.java
+DEBUG 2016-07-08 18:57:55,592 (EditorManager.java:392) Elements.java
+DEBUG 2016-07-08 18:57:55,592 (EditorManager.java:392) Panel1.java
+DEBUG 2016-07-08 18:57:55,593 (EditorManager.java:392) Window.java
+DEBUG 2016-07-08 18:57:55,593 (EditorManager.java:392) Frame.java
+DEBUG 2016-07-08 18:57:55,594 (SharedProjectDecorator.java:99) updating project decoration for all shared projects
+INFO  2016-07-08 18:57:55,594 (SarosSessionManager.java:262) session started
+DEBUG 2016-07-08 18:57:55,595 (OutgoingSessionNegotiation.java:122) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : starting invitation
+DEBUG 2016-07-08 18:57:55,596 (OutgoingSessionNegotiation.java:223) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] : checking Saros support
+DEBUG 2016-07-08 18:57:55,596 (OutgoingSessionNegotiation.java:235) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de] :  remote contact offers Saros support
+DEBUG 2016-07-08 18:57:55,596 (OutgoingSessionNegotiation.java:253) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : checking version compatibility
+DEBUG 2016-07-08 18:57:55,773 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2016-07-08 18:57:55,773 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2016-07-08 18:57:55,832 (MultiUserChat.java:310) Configuring room
+DEBUG 2016-07-08 18:57:55,859 (OutgoingSessionNegotiation.java:284) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : Saros versions are compatible
+DEBUG 2016-07-08 18:57:55,860 (OutgoingSessionNegotiation.java:298) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending invitation
+DEBUG 2016-07-08 18:57:55,860 (OutgoingSessionNegotiation.java:314) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for invitation acknowledgement
+DEBUG 2016-07-08 18:57:56,047 (MultiUserChat.java:297) MUC created and joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1989073175 Password 900121365
+DEBUG 2016-07-08 18:57:56,053 (OutgoingSessionNegotiation.java:325) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : invitation acknowledged
+DEBUG 2016-07-08 18:57:56,054 (OutgoingSessionNegotiation.java:334) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for peer to accept the invitation
+DEBUG 2016-07-08 18:57:56,106 (MultiUserChatStateManager.java:101) Incoming Message from saros_1989073175@conference.saros-con.imp.fu-berlin.de/oriol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:57:56,107 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:57:56,107 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:58:11,667 (OutgoingSessionNegotiation.java:345) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2016-07-08 18:58:11,668 (OutgoingSessionNegotiation.java:355) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for client's session parameters
+DEBUG 2016-07-08 18:58:11,705 (OutgoingSessionNegotiation.java:375) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : received client's session parameters
+DEBUG 2016-07-08 18:58:11,849 (WhiteboardManager.java:163) Detected  Whiteboard at davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:58:11,849 (OutgoingSessionNegotiation.java:427) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending updated session negotiation data
+DEBUG 2016-07-08 18:58:11,849 (OutgoingSessionNegotiation.java:434) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sent updated session negotiation data
+DEBUG 2016-07-08 18:58:11,849 (OutgoingSessionNegotiation.java:444) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for remote side to start its Saros session
+DEBUG 2016-07-08 18:58:13,384 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@7dfd0251]
+DEBUG 2016-07-08 18:58:13,385 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]
+DEBUG 2016-07-08 18:58:13,385 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2016-07-08 18:58:13,385 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2016-07-08 18:58:14,119 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 18:58:14,121 (ByteStreamTransport.java:105) could not establish bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-08 18:58:44,485 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@221e58e0]
+DEBUG 2016-07-08 18:58:44,485 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros, inc=true, pool id=saros-main-session:in:davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:58:44,486 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-07-08 18:58:44,932 (MultiUserChatStateManager.java:101) Incoming Message from saros_1989073175@conference.saros-con.imp.fu-berlin.de/davidpujol@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2016-07-08 18:58:44,933 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2016-07-08 18:58:44,933 (MultiUserChat.java:133) processPacket called
+DEBUG 2016-07-08 18:58:45,420 (OutgoingSessionNegotiation.java:455) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : remote side started its Saros session
+DEBUG 2016-07-08 18:58:45,421 (OutgoingSessionNegotiation.java:472) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : synchronizing user list
+DEBUG 2016-07-08 18:58:45,421 (UserInformationHandler.java:152) synchronizing user list (A)[oriol@saros-con.imp.fu-berlin.de/Saros, davidpujol@saros-con.imp.fu-berlin.de/Saros], (R) [] with user(s) [davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:58:46,263 (UserInformationHandler.java:204) received user list confirmation from: davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:58:46,264 (UserInformationHandler.java:211) synchronized user list with user(s) [davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:58:46,264 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-07-08 18:58:46,266 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-07-08 18:58:46,267 (ChangeColorManager.java:383) new color assignment: {oriol@saros-con.imp.fu-berlin.de/Saros=3, davidpujol@saros-con.imp.fu-berlin.de/Saros=1}
+DEBUG 2016-07-08 18:58:46,268 (ChangeColorManager.java:634) updating color id set: [oriol@saros-con.imp.fu-berlin.de, davidpujol@saros-con.imp.fu-berlin.de]
+DEBUG 2016-07-08 18:58:46,272 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+INFO  2016-07-08 18:58:46,272 (ParticipantCollector.java:67) davidpujol@saros-con.imp.fu-berlin.de/Saros joined - session now contains 2 users
+INFO  2016-07-08 18:58:46,274 (SarosSession.java:456) user davidpujol@saros-con.imp.fu-berlin.de/Saros joined session
+DEBUG 2016-07-08 18:58:46,274 (OutgoingSessionNegotiation.java:482) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : added davidpujol@saros-con.imp.fu-berlin.de/Saros to the current session, colorID: 1
+DEBUG 2016-07-08 18:58:47,189 (OutgoingSessionNegotiation.java:501) OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : session negotiation finished
+DEBUG 2016-07-08 18:58:47,189 (WhiteboardManager.java:89) Preparing Whiteboard for sending an invitation
+DEBUG 2016-07-08 18:58:47,191 (ColorUtils.java:21) set foregroundcolor RGB {237, 237, 169}
+DEBUG 2016-07-08 18:58:47,192 (SXEController.java:120) SXE (7619): initialize session at inviter side
+DEBUG 2016-07-08 18:58:47,192 (SXEOutgoingSynchronizationProcess.java:51) SXE(7619)  send state-offer to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:58:47,193 (SarosSXETransmitter.java:151) SXE send state-offer to davidpujol@saros-con.imp.fu-berlin.de/Saros waiting for [accept-state, refuse-state]
+INFO  2016-07-08 18:58:47,193 (DataTransferManager.java:409) establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saros from oriol@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2016-07-08 18:58:47,194 (ByteStreamTransport.java:45) establishing bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:58:47,194 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]...
+WARN  2016-07-08 18:58:47,872 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to davidpujol@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2016-07-08 18:58:47,873 (Socks5Transport.java:567) [SOCKS5Transport] waiting for davidpujol@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+DEBUG 2016-07-08 18:58:48,360 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@7dfd0251]
+DEBUG 2016-07-08 18:58:48,361 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from davidpujol@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]]
+ERROR 2016-07-08 18:58:48,362 (ByteStreamTransport.java:105) could not establish bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2016-07-08 18:59:17,875 (DataTransferManager.java:415) failed to connect to davidpujol@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:242)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:88)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:64)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendWithoutDispatch(SarosSXETransmitter.java:137)
+	at de.fu_berlin.inf.dpp.whiteboard.net.SarosSXETransmitter.sendAndAwait(SarosSXETransmitter.java:162)
+	at de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEOutgoingSynchronizationProcess.start(SXEOutgoingSynchronizationProcess.java:58)
+	at de.fu_berlin.inf.dpp.whiteboard.net.WhiteboardManager$1.postOutgoingInvitationCompleted(WhiteboardManager.java:96)
+	at de.fu_berlin.inf.dpp.project.SarosSessionManager.postOutgoingInvitationCompleted(SarosSessionManager.java:667)
+	at de.fu_berlin.inf.dpp.negotiation.OutgoingSessionNegotiation.start(OutgoingSessionNegotiation.java:202)
+	at de.fu_berlin.inf.dpp.ui.eventhandler.NegotiationHandler$OutgoingInvitationJob.run(NegotiationHandler.java:86)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 13 more
+INFO  2016-07-08 18:59:17,877 (DataTransferManager.java:409) establishing connection to davidpujol@saros-con.imp.fu-berlin.de/Saros from oriol@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2016-07-08 18:59:17,877 (ByteStreamTransport.java:45) establishing bytestream connection to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:18,483 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=default] davidpujol@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=default:out:davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:59:18,484 (BinaryChannelConnection.java:103) [mode=IBB, id=default] davidpujol@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2016-07-08 18:59:19,281 (SXEOutgoingSynchronizationProcess.java:70) SXE(7619) davidpujol@saros-con.imp.fu-berlin.de/Saros accepted state-offer
+DEBUG 2016-07-08 18:59:19,288 (SXEOutgoingSynchronizationProcess.java:89) SXE(7619) Sending state to davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:19,289 (SXEOutgoingSynchronizationProcess.java:91) Send message: de.fu_berlin.inf.dpp.whiteboard.sxe.net.SXEMessage@53734efc: from: null, to: davidpujol@saros-con.imp.fu-berlin.de/Saros, msgId: 1messageTyp: statemessage: [new visible=true version=0 ns=http://www.w3.org/2000/svg name=svg rid=146799704103789249 type=element, ]
+DEBUG 2016-07-08 18:59:19,290 (CancelableProcess.java:353) process OSN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+INFO  2016-07-08 18:59:19,294 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 2 in this session. There are 0 process(es) in this session
+DEBUG 2016-07-08 18:59:19,592 (OutgoingProjectNegotiation.java:181) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending file list
+DEBUG 2016-07-08 18:59:20,168 (OutgoingProjectNegotiation.java:214) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : waiting for remote file list
+DEBUG 2016-07-08 18:59:43,875 (OutgoingProjectNegotiation.java:232) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : remote file list has been received
+DEBUG 2016-07-08 18:59:43,875 (OutgoingProjectNegotiation.java:270) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : stopping users [oriol@saros-con.imp.fu-berlin.de/Saros, davidpujol@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2016-07-08 18:59:43,878 (EditorManager.java:1697) locking all editors
+DEBUG 2016-07-08 18:59:43,878 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:43,880 (StopManager.java:239) added StartHandle (oriol@saros-con.imp.fu-berlin.de/Saros, 1859438767481953998128635856, startable) to resulting handles.
+DEBUG 2016-07-08 18:59:44,635 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:44,637 (StopManager.java:390) Acknowledgment arrived davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:44,638 (StopManager.java:239) added StartHandle (davidpujol@saros-con.imp.fu-berlin.de/Saros, 1859438768820376784619439293, startable) to resulting handles.
+INFO  2016-07-08 18:59:45,466 (SarosSession.java:462) user davidpujol@saros-con.imp.fu-berlin.de/Saros started queuing projects and can receive IResourceActivities
+DEBUG 2016-07-08 18:59:45,472 (OutgoingProjectNegotiation.java:353) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : creating archive
+DEBUG 2016-07-08 18:59:45,573 (CreateArchiveTask.java:140) created archive C:\Users\Oriol\AppData\Local\Temp\saros_-19117051663818325878924115656338281029.zip I/O: [2,0 MB in < 1 s at 21,7 MB/s]
+DEBUG 2016-07-08 18:59:45,573 (OutgoingProjectNegotiation.java:288) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : restarting user oriol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:45,573 (StartHandle.java:58) Called start on oriol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:45,573 (StopManager.java:430) StartHandle (oriol@saros-con.imp.fu-berlin.de/Saros, 1859438767481953998128635856, not startable) couldn't be removed because it doesn't exist any more.
+DEBUG 2016-07-08 18:59:45,574 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-07-08 18:59:45,574 (OutgoingProjectNegotiation.java:288) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : restarting user davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:45,574 (StartHandle.java:58) Called start on davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:45,574 (OutgoingProjectNegotiation.java:390) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : sending archive
+DEBUG 2016-07-08 18:59:45,575 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:45,932 (ActivitySequencer.java:496) send (004) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:46,099 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:55,597 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 18:59:55,970 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:05,598 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:06,000 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:15,599 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:15,890 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:25,600 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:26,082 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:35,601 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:36,005 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:45,602 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:46,075 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:55,603 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:00:56,014 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:05,605 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:05,932 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:15,606 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:16,084 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:21,792 (OutgoingProjectNegotiation.java:407) OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] : archive send
+INFO  2016-07-08 19:01:21,793 (SarosSession.java:482) user davidpujol@saros-con.imp.fu-berlin.de/Saros now has Projects and can process IResourceActivities
+DEBUG 2016-07-08 19:01:21,795 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:22,220 (CancelableProcess.java:353) process OPN [remote side: davidpujol@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2016-07-08 19:01:22,454 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:22,530 (ActivitySequencer.java:496) send (005) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:25,608 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:26,333 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:28,893 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:29,183 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:29,189 (EditorListener.java:236) Viewport changed: 14+38
+DEBUG 2016-07-08 19:01:29,191 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:30,377 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:30,679 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:31,617 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:31,905 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:32,256 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:32,547 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:33,108 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:33,665 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:34,184 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:34,720 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:35,015 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:35,303 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:35,608 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:35,651 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:35,932 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:36,020 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:36,331 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:36,337 (EditorListener.java:236) Viewport changed: 58+38
+DEBUG 2016-07-08 19:01:36,337 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:36,691 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:37,240 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:37,540 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:38,283 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:38,640 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:38,929 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:45,609 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:45,973 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:55,610 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:01:56,233 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:05,610 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:15,247 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:15,612 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:15,896 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:25,612 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:25,915 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:35,614 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:36,147 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:45,615 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:46,397 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:55,616 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:02:55,920 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:05,617 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:06,153 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:15,617 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:16,389 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:24,327 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:24,785 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:25,068 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:25,619 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:25,922 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:35,619 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:36,386 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:45,621 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:46,092 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:48,963 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:49,672 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:50,570 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:50,863 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:51,200 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:51,481 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:51,651 (EditorListener.java:236) Viewport changed: 40+38
+DEBUG 2016-07-08 19:03:51,652 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,103 (EditorListener.java:236) Viewport changed: 38+38
+DEBUG 2016-07-08 19:03:52,104 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,130 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,134 (EditorListener.java:236) Viewport changed: 36+38
+DEBUG 2016-07-08 19:03:52,150 (EditorListener.java:236) Viewport changed: 34+38
+DEBUG 2016-07-08 19:03:52,181 (EditorListener.java:236) Viewport changed: 32+38
+DEBUG 2016-07-08 19:03:52,283 (EditorListener.java:236) Viewport changed: 30+38
+DEBUG 2016-07-08 19:03:52,429 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,510 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,641 (EditorListener.java:236) Viewport changed: 28+38
+DEBUG 2016-07-08 19:03:52,667 (EditorListener.java:236) Viewport changed: 26+38
+DEBUG 2016-07-08 19:03:52,707 (EditorListener.java:236) Viewport changed: 24+38
+DEBUG 2016-07-08 19:03:52,727 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:52,860 (EditorListener.java:236) Viewport changed: 22+38
+DEBUG 2016-07-08 19:03:53,032 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:53,254 (EditorListener.java:236) Viewport changed: 20+38
+DEBUG 2016-07-08 19:03:53,291 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:53,336 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:53,615 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:54,031 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:54,320 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:54,603 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:54,761 (EditorListener.java:236) Viewport changed: 18+38
+DEBUG 2016-07-08 19:03:54,762 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:54,889 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:55,199 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:55,489 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:55,621 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:55,842 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:55,917 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:56,151 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:03:56,469 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:03,389 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:03,675 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:04,004 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:04,299 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:04,626 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:05,081 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:05,482 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:05,622 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:05,844 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:05,919 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:06,427 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:06,714 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:07,754 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:08,043 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:08,341 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:08,647 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:08,933 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:09,231 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:09,532 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:09,819 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:13,691 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:13,971 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:15,624 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:16,197 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:16,811 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:17,117 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:17,425 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:17,711 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:18,003 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:18,291 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:18,581 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:18,862 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:19,146 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:19,440 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:19,730 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:20,029 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:20,326 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:20,612 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:20,935 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:21,268 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:21,572 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:21,861 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:22,149 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:22,430 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:22,716 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:23,002 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:25,624 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:25,921 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:32,063 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:35,625 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:36,163 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:45,625 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:46,402 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:54,854 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:55,627 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:55,921 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:57,065 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:58,095 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:04:58,419 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:03,556 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:03,565 (EditorManager.java:1444) Saved document: SPath [path=src/principal/User.java, project=ThreeSquareV1.1]
+DEBUG 2016-07-08 19:05:05,627 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:05,917 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:10,093 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:11,068 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:15,629 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:16,100 (ActivitySequencer.java:496) send (004) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:19,857 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:20,146 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:21,097 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:21,385 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:25,631 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:26,256 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:26,263 (EditorManager.java:1444) Saved document: SPath [path=src/principal/User.java, project=ThreeSquareV1.1]
+DEBUG 2016-07-08 19:05:26,347 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:35,631 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:36,072 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:36,712 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:37,015 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:37,330 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:37,620 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:45,632 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:46,311 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:49,486 (DirtyStateListener.java:75) Dirty state reset for: L/ThreeSquareV1.1/src/principal/User.java
+DEBUG 2016-07-08 19:05:49,487 (DirtyStateListener.java:75) Dirty state reset for: L/ThreeSquareV1.1/src/principal/User.java
+DEBUG 2016-07-08 19:05:49,487 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:49,891 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:55,632 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:05:56,056 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:05,633 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:06,277 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:10,645 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:10,928 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:12,623 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:12,909 (ActivitySequencer.java:546) rcvd (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:13,209 (ActivitySequencer.java:546) rcvd (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:15,358 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:15,633 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:15,644 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:15,947 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:16,013 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:16,329 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:16,968 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:17,508 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:17,859 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:18,618 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:18,907 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:19,462 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:19,747 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:20,043 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:20,385 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:20,669 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:20,968 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:21,255 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:21,570 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:21,859 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:22,145 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:22,430 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:22,709 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:23,702 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:24,007 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:24,337 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:25,492 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:25,634 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:25,860 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:25,938 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:26,175 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:26,468 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:26,816 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:27,421 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:27,719 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:28,026 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:30,555 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:30,835 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:31,626 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:31,915 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:32,337 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:32,616 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:32,916 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:33,198 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:33,488 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:33,974 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:34,275 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:34,951 (ActivitySequencer.java:546) rcvd (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:35,635 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:35,932 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:45,635 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:46,319 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:55,637 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:06:55,922 (ActivitySequencer.java:496) send (003) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:07:05,637 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:07:06,300 (ActivitySequencer.java:496) send (002) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:07:15,638 (ActivitySequencer.java:496) send (001) davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-08 19:07:46,573 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+ERROR 2016-07-08 19:08:45,641 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ping, namespace=de.fu_berlin.inf.dpp, recipient=davidpujol@saros-con.imp.fu-berlin.de/Saros, sender=oriol@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros:connection is closed
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-08 19:08:45,641 (DataTransferManager.java:336) closed connection [pool id=saros-main-session:in:davidpujol@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros
+ERROR 2016-07-08 19:08:45,643 (ServerSessionTimeoutHandler.java:113) failed to send ping to: davidpujol@saros-con.imp.fu-berlin.de/Saros
+java.io.EOFException: connection is closed
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.timeout.ServerSessionTimeoutHandler$3.run(ServerSessionTimeoutHandler.java:103)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 19:08:45,643 (DataTransferManager.java:270) failed to send TransferDescription [elementName=ados, namespace=de.fu_berlin.inf.dpp, recipient=davidpujol@saros-con.imp.fu-berlin.de/Saros, sender=oriol@saros-con.imp.fu-berlin.de/Saros, compress=true], connection=[mode=IBB, id=saros-main-session] davidpujol@saros-con.imp.fu-berlin.de/Saros:Error while closing stream: No response from server.
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2016-07-08 19:08:45,646 (ActivitySequencer.java:504) failed to sent activities: [ChecksumActivity(path: SPath [path=src/principal/User.java, project=ThreeSquareV1.1], hash: -335099345, length: 3486, jupiterTimestamp: [0,6])]
+java.io.IOException: Error while closing stream: No response from server.
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IQIBBOutputStream.writeToXML(InBandBytestreamSession.java:768)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flushBuffer(InBandBytestreamSession.java:707)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession$IBBOutputStream.flush(InBandBytestreamSession.java:691)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.sendTransferDescription(BinaryChannelConnection.java:544)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.send(BinaryChannelConnection.java:322)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendInternal(DataTransferManager.java:268)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.sendData(DataTransferManager.java:216)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPTransmitter.send(XMPPTransmitter.java:90)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.sendActivities(ActivitySequencer.java:501)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer.access$3(ActivitySequencer.java:482)
+	at de.fu_berlin.inf.dpp.project.internal.ActivitySequencer$2.run(ActivitySequencer.java:152)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-08 19:08:45,646 (ChangeColorManager.java:290) reassigning color IDs for the current session users
+DEBUG 2016-07-08 19:08:45,648 (ChangeColorManager.java:324) color conflict resolve result = NO CONFLICT
+DEBUG 2016-07-08 19:08:45,649 (ChangeColorManager.java:383) new color assignment: {oriol@saros-con.imp.fu-berlin.de/Saros=3}
+DEBUG 2016-07-08 19:08:45,649 (ChangeColorManager.java:634) updating color id set: [oriol@saros-con.imp.fu-berlin.de]
+INFO  2016-07-08 19:08:45,651 (ParticipantCollector.java:77) davidpujol@saros-con.imp.fu-berlin.de/Saros left - session now contains 1 users
+INFO  2016-07-08 19:09:19,554 (SarosSession.java:555) user davidpujol@saros-con.imp.fu-berlin.de/Saros left session
+DEBUG 2016-07-08 19:09:19,556 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2016-07-08 19:09:19,556 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2016-07-08 19:09:19,557 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2016-07-08 19:09:19,557 (FeedbackManager.java:104) Session lasted 11 min 23 s
+DEBUG 2016-07-08 19:09:19,558 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2016-07-08 19:09:19,559 (ParticipantCollector.java:145) Session ended: Current number of participants: 1
+DEBUG 2016-07-08 19:09:19,559 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.6
+  data_transfer.IBB.number_of_events=307
+  data_transfer.IBB.total_size_kb=66
+  data_transfer.IBB.total_time_ms=111390
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_91
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 7
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-07-05_18-51-28_1203379747
+  role.1.duration=11.4
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=11.4
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=20
+  session.id=1989073175
+  session.local.start=2016-07-08T17:09:19Z
+  session.shared.project.complete.count=1
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.1.percent=12
+  session.time.users.1=1.41
+  session.time.users.2.percent=88
+  session.time.users.2=9.99
+  session.time=11.4
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=100
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  textedits.remote.user.1.chars=3
+  textedits.remote.user.1.pastes.chars=0
+  textedits.remote.user.1.pastes=0
+  user.is.host=true
+INFO  2016-07-08 19:09:19,560 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2016-07-08 19:09:19,594 (EditorManager.java:1697) unlocking all editors
+DEBUG 2016-07-08 19:09:19,595 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2016-07-08 19:09:19,595 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2016-07-08 19:09:19,596 (DocumentRecord.java:93) Added Node: attr(146799775959622242) name=svg
+DEBUG 2016-07-08 19:09:19,596 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2016-07-08 19:09:19,616 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@33731297
+INFO  2016-07-08 19:09:19,676 (SarosSessionManager.java:351) session stopped
+INFO  2016-07-08 19:09:23,871 (FeedbackManager.java:139) Asking for feedback survey: User declined
+DEBUG 2016-07-08 19:23:59,254 (DiscoveryManager.java:98) clearing cache entry of contact davidpujol@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+DEBUG 2016-07-09 01:23:00,776 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+ERROR 2016-07-09 01:23:00,834 (BinaryChannelConnection.java:176) failed to gracefully close connection [mode=IBB, id=default] davidpujol@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: Error while closing stream: service-unavailable(503)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:213)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPByteStreamAdapter.close(XMPPByteStreamAdapter.java:32)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.close(BinaryChannelConnection.java:174)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionPool.close(ConnectionPool.java:50)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.disposeConnection(DataTransferManager.java:510)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectionStateChanged(DataTransferManager.java:520)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-09 01:23:00,844 (BinaryChannelConnection.java:112) [mode=IBB, id=default] davidpujol@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2016-07-09 01:23:00,854 (ConnectionPool.java:52) closed connection [id=default:out:davidpujol@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=default] davidpujol@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2016-07-09 01:23:01,006 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2016-07-09 01:23:01,006 (UPnPServiceImpl.java:295) deleting existing port mappings

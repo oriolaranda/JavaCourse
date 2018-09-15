@@ -1,0 +1,110 @@
+INFO  2016-07-04 21:59:03,218 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_91
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.12.0.v20160606-1342
+  Operating System: Windows 7 (6.1)
+  Hardware Architecture: amd64
+INFO  2016-07-04 21:59:03,239 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2016-07-04 21:59:03,265 (XMPPAccountStore.java:117) loading accounts from file: C:\Users\Oriol\.saros\config.dat
+DEBUG 2016-07-04 21:59:03,372 (XMPPAccountStore.java:176) loaded 1 account(s)
+INFO  2016-07-04 21:59:03,481 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2016-07-04 21:59:03,495 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2016-07-04 21:59:03,509 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2016-07-04 21:59:03,535 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2016-07-04 21:59:03,539 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2016-07-04 21:59:05,344 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2016-07-04 21:59:06,956 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2016-07-04 21:59:06,967 (DocumentRecord.java:93) Added Node: attr(146766234696433587) name=svg
+DEBUG 2016-07-04 22:00:04,066 (UPnPServiceImpl.java:225) performing gateways discovery
+INFO  2016-07-04 22:00:13,162 (UPnPServiceImpl.java:237) discovered 0 gateway(s)
+DEBUG 2016-07-04 22:00:52,959 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:00:53,035 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-04 22:00:53,076 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-04 22:00:53,080 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+ERROR 2016-07-04 22:00:53,866 (XMPPConnectionService.java:400)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:276)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:332)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:190)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:201)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-04 22:00:54,054 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+WARN  2016-07-04 22:01:03,400 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+WARN  2016-07-04 22:01:03,401 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+DEBUG 2016-07-04 22:01:17,038 (CreateXMPPAccountWizard.java:135) Account creation succeeded: username=oriol, server=saros-con.imp.fu-berlin.de
+DEBUG 2016-07-04 22:01:17,062 (XMPPAccountStore.java:232) saved 2 account(s)
+DEBUG 2016-07-04 22:02:34,927 (XMPPAccountStore.java:232) saved 2 account(s)
+DEBUG 2016-07-04 22:02:39,824 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:02:48,012 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:02:48,018 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-04 22:02:48,090 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-04 22:02:48,091 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2016-07-04 22:02:48,911 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2016-07-04 22:02:48,912 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2016-07-04 22:02:48,916 (SkypeManager.java:289) Refreshing Skype username cache...
+INFO  2016-07-04 22:02:48,982 (SingleUserChatService.java:84) chat created between oriol@saros-con.imp.fu-berlin.de/Saros <->saros-con.imp.fu-berlin.de, created local: false
+WARN  2016-07-04 22:02:58,134 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+WARN  2016-07-04 22:02:58,136 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+DEBUG 2016-07-04 22:03:56,485 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:04:04,127 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2016-07-04 22:04:04,279 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2016-07-04 22:04:05,765 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:04:05,768 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-04 22:04:05,844 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-04 22:04:05,845 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+ERROR 2016-07-04 22:04:06,450 (XMPPConnectionService.java:400)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.connect(XMPPConnectionService.java:276)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connectXMPPInternal(ConnectionHandler.java:332)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.connect(ConnectionHandler.java:190)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:201)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-04 22:04:06,609 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+WARN  2016-07-04 22:04:15,894 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+WARN  2016-07-04 22:04:15,895 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+DEBUG 2016-07-04 22:04:19,200 (XMPPAccountStore.java:232) saved 1 account(s)
+DEBUG 2016-07-04 22:04:19,252 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2016-07-04 22:04:19,299 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.43.1, 192.168.1.33, fe80:0:0:0:75bd:6496:475e:1a7f%eth3, fe80:0:0:0:6c04:c98:f923:ce95%eth4]
+DEBUG 2016-07-04 22:04:19,300 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2016-07-04 22:04:23,143 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2016-07-04 22:04:23,144 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2016-07-04 22:04:23,146 (SkypeManager.java:289) Refreshing Skype username cache...
+WARN  2016-07-04 22:04:29,346 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.43.1:0
+WARN  2016-07-04 22:04:29,348 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.153:3478 at local address /192.168.1.33:0
+DEBUG 2016-07-05 01:23:05,025 (XMPPConnectionService.java:398) oriol@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+WARN  2016-07-05 01:23:05,026 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@7102366b, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:125)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2016-07-05 01:23:05,026 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5$4@61940f6b, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.chat.ChatControl$5.disconnected(ChatControl.java:301)
+	at de.fu_berlin.inf.dpp.communication.chat.AbstractChat.notifyJIDDisconnected(AbstractChat.java:72)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChat.setConnected(SingleUserChat.java:126)
+	at de.fu_berlin.inf.dpp.communication.chat.single.SingleUserChatService$1.connectionStateChanged(SingleUserChatService.java:60)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.disconnect(XMPPConnectionService.java:304)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnectXMPPInternal(ConnectionHandler.java:225)
+	at de.fu_berlin.inf.dpp.communication.connection.ConnectionHandler.disconnect(ConnectionHandler.java:211)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:304)
+	at de.fu_berlin.inf.dpp.util.ThreadUtils$1.run(ThreadUtils.java:38)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2016-07-05 01:23:05,178 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2016-07-05 01:23:05,179 (UPnPServiceImpl.java:295) deleting existing port mappings

@@ -1,0 +1,49 @@
+package principal;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+/**
+ * Classe Frame
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.0
+ * 
+ **/
+
+public class Frame extends JFrame implements ActionListener {
+	
+	public Frame(){
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(500,500,600,600);
+		setVisible(true);
+		setResizable(false);
+		setTitle("3^2");
+		setLocationRelativeTo(null);
+		//setIconImage (new ImageIcon(getClass().getResource("/resources/")).getImage());
+		
+		
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

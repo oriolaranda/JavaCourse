@@ -1,0 +1,220 @@
+package principal;
+
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Cursor;
+import java.awt.Font;
+import java.awt.ItemSelectable;
+import java.awt.Window;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.image.ImageProducer;
+
+import javax.swing.AbstractButton;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+
+/**
+ * Classe Panel1
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.1
+ * 
+ **/
+
+public class Panel1 extends JPanel implements MouseListener {
+	Frame f;
+	Algorismes alg;
+	
+	JLabel player1, player2;
+	JLabel cercle, creu;
+	JLabel[][] ox_general= new JLabel[3][3];
+	JButton[][] buto=new JButton[9][9];
+	int x,y,a,b;
+	JTextField comentaris;
+	
+	
+	/* ************************* *
+	 * Constructor JPanel Panel1 *
+	 * ************************* */
+	
+	public Panel1(){
+		initComponents();
+		creacioBotons();
+	}
+		
+	public void initComponents(){
+		setLayout(null);
+		
+		player1 = new JLabel();
+		player1.setBounds(30, 5, 100, 20);
+		player1.setFont(new Font("Calibri", Font.PLAIN, 16));
+		add(player1);
+		
+		
+		player2 = new JLabel();
+		player2.setBounds(355,5,100,20);
+		player2.setFont(new Font("Calibri", Font.PLAIN, 16));
+		add(player2);
+		
+		cercle = new JLabel();
+		cercle.setIcon (new ImageIcon (getClass().getResource("/resources/panel1/o_vermell.png")));
+		cercle.setBounds(30, 35, 25, 25);
+		cercle.setFocusable(false);
+		add(cercle);
+		
+		creu = new JLabel();
+		creu.setIcon (new ImageIcon (getClass().getResource("/resources/panel1/x_blau.png")));
+		creu.setBounds(355, 35, 25, 25);
+		add(creu);
+		
+		creacioOXGeneral();
+		
+		
+		comentaris = new JTextField ();
+		comentaris.setBounds(130, 280, 120, 60);		
+			add (comentaris);
+	}
+	
+	public void creacioOXGeneral(){
+		int x=85;
+		int y=40;
+		for(int i=0; i<3; i++){
+			for(int j=0; j<3; j++){
+				ox_general[i][j] = new JLabel();
+				ox_general[i][j].setBounds(x, y, 75, 75);
+				ox_general[i][j].setBackground(Color.blue);
+				ox_general[i][j].setOpaque(true);
+				ox_general[i][j].setEnabled(false);
+				ox_general[i][j].setVisible(true);
+				setComponentZOrder(ox_general[i][j], 0);
+				add(ox_general[i][j]);
+				setVisible(true);
+				x+=80;
+			}
+			x=85;
+			y+=80;
+		}
+		
+	}
+
+	public void creacioBotons(){
+		a=85;b=40;x=25;y=25;
+		
+		for(int i=0; i<9; i++){
+			for(int j=0;j<9; j++){
+				buto[i][j]=new JButton();
+				buto[i][j].setBounds(a,b,x,y);
+				buto[i][j].setFocusable(false);
+				buto[i][j].setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+				buto[i][j].addMouseListener(this);
+				setComponentZOrder(buto[i][j], 2);
+				add(buto[i][j]);
+				setVisible(true);
+				
+				if (j== 2 || j==5 ){
+					a+=5;
+				}	
+				a+=25;
+			}
+			
+			if (i==2 || i==5){
+				b+=5;
+			}
+			b+=25;
+			a=85;
+		}
+	
+	}
+	
+	public void oxGeneral(){
+		if(alg.torn_posicio==1){
+			
+		}
+		if(alg.torn_posicio==3){
+			
+		}
+	}
+		
+
+
+	/* Info Principal */
+	
+	public void setPrincipal(Frame f, Algorismes alg){
+		this.f=f;
+		this.alg=alg;
+	}
+	
+	
+	/* Listeners */
+	
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		
+		if(e.getComponent().isEnabled()){
+			 for (int i = 0; i < 9; i++){
+				    for (int j = 0; j < 9; j++){
+				       if(e.getSource()==buto[i][j]){
+				           System.out.println("En sistema de coordenades: " + i + " " + j); 
+				    	   alg.canviNombre(i, j);
+				    	   
+				       }
+				    }
+			}
+			 if (alg.torn_enter % 2 == 0){
+				 ((AbstractButton) e.getComponent()).setIcon(new ImageIcon (getClass().getResource("/resources/panel1/o_vermell_fons_gris.png")));
+				 ((AbstractButton) e.getComponent()).setDisabledIcon(new ImageIcon (getClass().getResource("/resources/panel1/o_vermell_fons_gris.png")));
+				 e.getComponent().removeMouseListener(this);
+				 e.getComponent().setEnabled(true);
+				 
+				 comentaris.setText("És el torn del jugador 1");
+				 
+				 alg.torn_enter +=1;
+				 
+				 
+			 }
+			 else{
+				 ((AbstractButton) e.getComponent()).setIcon(new ImageIcon (getClass().getResource("/resources/panel1/x_blau_fons_gris.png")));
+				 ((AbstractButton) e.getComponent()).setDisabledIcon(new ImageIcon (getClass().getResource("/resources/panel1/x_blau_fons_gris.png")));
+				 e.getComponent().removeMouseListener(this);
+				 e.getComponent().setEnabled(true);
+				 
+				 comentaris.setText("És el torn del jugador 2");
+				 
+				 alg.torn_enter +=1;
+			 }
+		}
+		
+	}
+	
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		
+		if(e.getComponent().isEnabled()){
+			if(alg.torn_enter % 2==0){
+					((AbstractButton) e.getComponent()).setIcon(new ImageIcon (getClass().getResource("/resources/panel1/o_vermell.png")));
+			}else{
+				((AbstractButton) e.getComponent()).setIcon(new ImageIcon (getClass().getResource("/resources/panel1/x_blau.png")));
+			}
+		}
+	}
+
+	@Override
+	public void mouseExited(MouseEvent e) {
+		((AbstractButton) e.getComponent()).setIcon(null);
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent e) {}
+	@Override
+	public void mouseReleased(MouseEvent e) {}
+	
+}

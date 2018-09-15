@@ -1,0 +1,263 @@
+package principal;
+
+import javax.swing.ImageIcon;
+
+/**
+ * Classe Algorismes
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.1
+ * 
+ **/
+
+public class Algorismes {
+
+	Panel1 p1;
+	Frame f;
+	
+	int torn_enter;	// Nombre enter que indica la tirada.
+	int torn_posicio;	// Nombre entre 1 o 3, que indica qui està jugant.
+	int quadrat;	// Aquestes dues últimes són les coordenades en el sistema de joc
+	int casella;
+	int joc[][] = new int[9][9]; //matriu de joc on guardem la partida actual
+	int taulell[] = new int[9];
+	int componentX=0;
+	int componentY=0;
+	
+	/* ********************** *
+	 * Constructor Algorismes *
+	 * ********************** */
+	
+	public Algorismes(){
+		tornRandom();
+	}
+	
+	public void calcular() {
+	
+		
+	}
+	
+	public void canviNombre (int x, int y){
+		/* Primer obtenim el valor del torn en 1 o 3. Això ens serà útil 
+		 * quan vulguem ficar IA en el joc.
+		 * En Aquest cas farem que si és parell és la rodona (valor 1)
+		 * i si és senar serà la creu (valor 3).
+		 */
+		int coeficient_x;
+		int coeficient_y;
+		
+		if (torn_enter % 2 == 0){
+			torn_posicio = 1; 	//És a dir, la rodona.
+		}
+		
+		else{
+			torn_posicio = 3;	//És la creu.
+		}
+		/* Com és una variable global de la clase, es mantindrà igual
+		 * fins que comencem un altre cop la tirada i cridem el
+		 * mètode canviNombre
+		 */
+		
+		// comencem el canvi de coordenades
+		
+		if (x<3 && y<3){ // primer quadrat
+			quadrat = 0;
+			coeficient_x = 0;
+			coeficient_y = 0;
+			casella(x, y, coeficient_x,coeficient_y);
+			
+		}
+		if (x<3 && y>2 && y<6){ // segon quadrat
+			quadrat = 1;
+			coeficient_x = 0;
+			coeficient_y = 3;
+			casella(x, y, coeficient_x,coeficient_y);			
+		}
+		if (x<3 && y>5){ // tercer quadrat
+			quadrat = 2;
+			coeficient_x = 0;
+			coeficient_y = 6;
+			casella(x, y, coeficient_x,coeficient_y);
+		}
+		if (x>2 && x<6 && y<3){ // quart quadrat
+			quadrat = 3;
+			coeficient_x = 3;
+			coeficient_y = 0;
+			casella(x, y, coeficient_x,coeficient_y);
+			
+		}
+		if (x>2 && x<6 && y>2 && y<6){ // cinque quadrat
+			quadrat = 4;
+			coeficient_x = 3;
+			coeficient_y = 3;
+			casella(x, y, coeficient_x,coeficient_y);			
+		}
+		if (x>2 && x<6 && y>5){ // sise quadrat
+			quadrat = 5;
+			coeficient_x = 3;
+			coeficient_y = 6;
+			casella(x, y, coeficient_x,coeficient_y);
+		}
+		if (x>5 && y<3){ // sete quadrat
+			quadrat = 6;
+			coeficient_x = 6;
+			coeficient_y = 0;
+			casella(x, y, coeficient_x,coeficient_y);
+			
+		}
+		if (x>5 && y>2 && y<6){ // vuite quadrat
+			quadrat = 7;
+			coeficient_x = 6;
+			coeficient_y = 3;
+			casella(x, y, coeficient_x,coeficient_y);			
+		}
+		if (x>5 && y>5){ // nove quadrat
+			quadrat = 8;
+			coeficient_x = 6;
+			coeficient_y = 6;
+			casella(x, y, coeficient_x,coeficient_y);
+		}
+		/* 
+		 * Amb tot això tindrem determinat el quadrat en el qual estem jugant.
+		 */
+	
+	
+	}
+
+	private void casella(int x, int y, int coeficient_x, int coeficient_y) {
+		int x_virtual = x-coeficient_x;
+		int y_virtual = y-coeficient_y;
+		casella = 3*x_virtual+y_virtual;
+		System.out.println("En sistema de joc: " + quadrat + " " + casella);
+		System.out.println("Posició: "+ torn_posicio);
+		ompleMatriu();
+		disableAll();
+		primeraCasella();
+		enableQuadrat();
+		
+	}
+	
+	/* Determina el torn */
+	public void tornRandom(){
+		torn_enter =(int)(Math.random()*50);
+	}
+	
+	/* Deshabilitar tots els JButton*/
+	public void disableAll(){	
+		for (int i=0;i<9;i++){
+			for (int j=0;j<9;j++){
+				p1.buto[i][j].setEnabled(false);
+				p1.ox_general[2][2].setVisible(true);
+			}
+		}
+	}
+	
+	/* Determinar la primera casella del quadrat on ha de tirar*/
+	public void primeraCasella(){
+		
+		if (casella<3){
+			componentX=0;
+			componentY=3*casella;
+		}if (casella>2 && casella <6){
+			componentX=3;
+			componentY=(casella-3)*3;
+		}if (casella>5){
+			componentX=6;
+			componentY=(casella-6)*3;
+		}
+		System.out.println("Primera coordenada: " + componentX + " " + componentY);
+		
+	}
+	
+	
+	
+	/* Habilitar el quadrat on s'ha de tirar*/
+	public void enableQuadrat(){
+	
+		
+		//No habilitar el quadrat si ja hi ha 3 en ralla	
+		if (taulell [quadrat] == torn_posicio){
+			
+			for(int i=0; i<3; i++){
+				for(int j=0; 	j<3; j++){
+					p1.buto[i+componentX][j+componentY].setEnabled(false);
+				}
+			
+			}	
+			enableAll();
+		}
+		
+		
+		else {
+		for(int i=0; i<3; i++){
+			for(int j=0; 	j<3; j++){
+				p1.buto[i+componentX][j+componentY].setEnabled(true);
+			}
+		}
+		}
+	
+	
+	}
+	
+	/*Habilitar tots els quadrats*/
+	public void enableAll(){
+		for(int i=0; i<9; i++){
+			for(int j=0; j<9; j++){
+				p1.buto[i][j].setEnabled(true);
+			}
+		}
+	}
+
+	/*Omplir la matriu del joc*/
+	public void ompleMatriu(){
+		if (torn_posicio == 1){
+			joc[quadrat][casella] = 1;
+		}else{
+			joc[quadrat][casella] = 3;
+		}
+		
+		comprovar();
+		comprovaTaulell();
+	}
+	
+	/*Comprovar tres en ratlla quadrat petit*/
+	public void comprovar() {
+		if ((joc[quadrat][0] == torn_posicio && joc[quadrat][1] == torn_posicio && joc[quadrat][2] == torn_posicio) ||
+				(joc[quadrat][3] == torn_posicio && joc[quadrat][4] == torn_posicio && joc[quadrat][5] == torn_posicio) ||
+				(joc[quadrat][6] == torn_posicio && joc[quadrat][7] == torn_posicio && joc[quadrat][8] == torn_posicio) ||
+				(joc[quadrat][0] == torn_posicio && joc[quadrat][3] == torn_posicio && joc[quadrat][6] == torn_posicio) ||
+				(joc[quadrat][1] == torn_posicio && joc[quadrat][4] == torn_posicio && joc[quadrat][7] == torn_posicio) ||
+				(joc[quadrat][2] == torn_posicio && joc[quadrat][5] == torn_posicio && joc[quadrat][8] == torn_posicio) ||
+				(joc[quadrat][0] == torn_posicio && joc[quadrat][4] == torn_posicio && joc[quadrat][8] == torn_posicio) ||
+				(joc[quadrat][2] == torn_posicio && joc[quadrat][4] == torn_posicio && joc[quadrat][6] == torn_posicio)){
+
+			
+			taulell[quadrat] = torn_posicio;
+			
+		}
+	}
+
+	/* Comprovar tres en ratlla gran */
+	public void comprovaTaulell() {
+	if ((taulell[0] == torn_posicio && taulell[1] == torn_posicio && taulell[2] == torn_posicio) ||
+			(taulell[3] == torn_posicio && taulell[4] == torn_posicio && taulell[5] == torn_posicio) ||
+			(taulell[6] == torn_posicio && taulell[7] == torn_posicio && taulell[8] == torn_posicio) ||
+			(taulell[0] == torn_posicio && taulell[3] == torn_posicio && taulell[6] == torn_posicio) ||
+			(taulell[1] == torn_posicio && taulell[4] == torn_posicio && taulell[7] == torn_posicio) ||
+			(taulell[2] == torn_posicio && taulell[5] == torn_posicio && taulell[8] == torn_posicio) ||
+			(taulell[0] == torn_posicio && taulell[4] == torn_posicio && taulell[8] == torn_posicio) ||
+			(taulell[2] == torn_posicio && taulell[4] == torn_posicio && taulell[6] == torn_posicio))
+{
+		
+		System.out.println("Final de la partida");
+	}
+		
+	}
+	
+	/* Info principal*/
+	public void setPrincipal (Frame f, Panel1 p1){
+		this.f=f;
+		this.p1=p1;
+	}
+	
+	
+}

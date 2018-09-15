@@ -1,0 +1,46 @@
+package principal;
+
+import javax.swing.JPanel;
+import javax.swing.UIManager;
+
+/**
+ * Joc 3^2 
+ * Classe principal
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.1
+ * 
+ **/
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		try {
+			javax.swing.UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			//Crear classes
+			Frame F =new Frame();
+			User usuari = new User();
+			Panel1 p1 = new Panel1();
+			Panel2 p2 = new Panel2();
+			Algorismes alg=new Algorismes();
+			
+			//Vincular les diferents classes
+			F.setPrincipal(usuari,p1,p2);
+			usuari.setPrincipal(F);
+			p1.setPrincipal(F,alg);
+			p2.setPrincipal(F,p1);
+			alg.setPrincipal(F, p1);
+			
+			
+			//Thread principal
+			F.mostrarUsuari();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		
+	}
+	
+}
+

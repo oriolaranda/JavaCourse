@@ -1,0 +1,37 @@
+package principal;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JPanel;
+
+public class Panel2 extends JPanel implements ActionListener{
+
+	Frame f;
+	Panel1 p1;
+	
+	
+	/* ************************* *
+	 * Constructor JPanel Panel2 *
+	 * ************************* */
+	public Panel2(){
+	}
+	
+	
+	public void initComponents(){
+		
+	}
+	
+	public void setPrincipal (Frame f, Panel1 p1){
+		this.f=f;
+		this.p1=p1;
+	}
+	
+	
+	/* Listeners */
+	
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+}

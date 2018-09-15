@@ -1,0 +1,36 @@
+package principal;
+
+import javax.swing.JFrame;
+import javax.swing.UIManager;
+
+/**
+ * Joc 3^2 
+ * Classe principal
+ * @author Oriol Aranda & David Pujol & Sergi Del Rio
+ * @version 1.0
+ * 
+ **/
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		try {
+			javax.swing.UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			Frame F=new Frame();
+			/*F.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			F.setBounds(200,200,300,300);
+			F.setVisible(true);
+			F.setResizable(false);
+			F.setTitle("3^2");
+			F.setLocationRelativeTo(null);*/
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+			
+		}
+		
+	}
+				
+}
+
